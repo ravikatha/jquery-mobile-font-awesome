@@ -1,3 +1,16 @@
+/****************************************************************************
+ * Resource:     Font Awesome Icons for jQuery Mobile						*
+ * Version:      403.142													*
+ * Font-Awesome: 4.0.3														*
+ * jQuery:		 1.4.2														*
+ * GIT Rep:		 https://github.com/dotcastle/jquery-mobile-font-awesome	*
+ * Author:       DotCastle TechnoSolutions Private Limited					*
+ * Web:			 http://www.dotcastle.com									*
+ * Copyright:    Copyright © 2013 - 2014,									*
+ *               DotCastle TechnoSolutions Private Limited, INDIA.			*
+ *               All rights reserved.										*
+ ***************************************************************************/
+
 .ui-icon-fa-glass:after {
 	background-image: url("svg/glass-16.svg");
 	background-repeat: no-repeat;

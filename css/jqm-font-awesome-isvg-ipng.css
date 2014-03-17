@@ -1,3 +1,16 @@
+/****************************************************************************
+ * Resource:     Font Awesome Icons for jQuery Mobile						*
+ * Version:      403.142													*
+ * Font-Awesome: 4.0.3														*
+ * jQuery:		 1.4.2														*
+ * GIT Rep:		 https://github.com/dotcastle/jquery-mobile-font-awesome	*
+ * Author:       DotCastle TechnoSolutions Private Limited					*
+ * Web:			 http://www.dotcastle.com									*
+ * Copyright:    Copyright © 2013 - 2014,									*
+ *               DotCastle TechnoSolutions Private Limited, INDIA.			*
+ *               All rights reserved.										*
+ ***************************************************************************/
+
 .ui-icon-fa-glass:after {
 	background-image: url("data:image/svg+xml;charset=UTF8;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIG92ZXJmbG93PSJhdXRvIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBiYXNlUHJvZmlsZT0idGlueSIgc3BhY2U9InByZXNlcnZlIj4NCiAgPHBhdGggZD0iTTE2OTkgMTM1MCBRMTY5OSAxMzE1IDE2NTYgMTI3MiBMMTAyNCA2NDAgTDEwMjQgLTEyOCBMMTM0NCAtMTI4IFExMzcwIC0xMjggMTM4OSAtMTQ3IFExNDA4IC0xNjYgMTQwOCAtMTkyIFExNDA4IC0yMTggMTM4OSAtMjM3IFExMzcwIC0yNTYgMTM0NCAtMjU2IEw0NDggLTI1NiBRNDIyIC0yNTYgNDAzIC0yMzcgUTM4NCAtMjE4IDM4NCAtMTkyIFEzODQgLTE2NiA0MDMgLTE0NyBRNDIyIC0xMjggNDQ4IC0xMjggTDc2OCAtMTI4IEw3NjggNjQwIEwxMzYgMTI3MiBROTMgMTMxNSA5MyAxMzUwIFE5MyAxMzczIDExMSAxMzg2LjUgUTEyOSAxNDAwIDE0OSAxNDA0IFExNjkgMTQwOCAxOTIgMTQwOCBMMTYwMCAxNDA4IFExNjIzIDE0MDggMTY0MyAxNDA0IFExNjYzIDE0MDAgMTY4MSAxMzg2LjUgUTE2OTkgMTM3MyAxNjk5IDEzNTAgeiIgcGF0aExlbmd0aD0iMCIgZmlsbD0iV2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQuMTcyMzI1RS0wNywgLTAuNTcxNDI3NSkgc2NhbGUoMC4wMDg5Mjg1NzIsIC0wLjAwODkyODU3MikgdHJhbnNsYXRlKDAsIC0xNTM2KSIgLz4NCjwvc3ZnPg==");
 	background-repeat: no-repeat;
