@@ -14,10 +14,8 @@ Features:
 7. Icon class names are prefixed with "fa-", thus leaving the original jQuery mobile icons intact. So if you want to use "sign-out" icon from the font awesome kit, you need to apply the style as "ui-icon-fa-sign-out" 
 8. Demo html file showcasing the icons with and without SVG support alongside the built-in icons
 
-/****************************************************************************
- * Author:        DotCastle TechnoSolutions Private Limited					        *
- * Web:			      http://www.dotcastle.com									                *
- * Copyright:     Copyright © 2013 - 2014,									                *
- *                DotCastle TechnoSolutions Private Limited, INDIA.			    *
- *                All rights reserved.										                  *
- ***************************************************************************/
+<hr />
+Author: DotCastle TechnoSolutions Private Limited<br />
+Web: http://www.dotcastle.com<br />
+Copyright: Copyright © 2013 - 2014, DotCastle TechnoSolutions Private Limited, INDIA. All rights reserved.
+
