@@ -1,7 +1,7 @@
 Font Awesome Icons for jQuery Mobile
 ====================================
 
-Read more about this <a href="http://www.dotcastle.com/blog/51/default/font-awesome-icons-for-jquery-mobile" target="_blank">here</a>
+Read more about this <a href="http://www.dotcastle.com/blog/font-awesome-icons-for-jquery-mobile" target="_blank">here</a>
 
 Features:
 ---------
