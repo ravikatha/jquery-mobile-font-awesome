@@ -1,8 +1,8 @@
 /****************************************************************************
  * Resource:     Font Awesome Icons for jQuery Mobile						*
- * Version:      410.142													*
- * Font-Awesome: 4.1.0														*
- * jQuery:		 1.4.2														*
+ * Version:      420.143													*
+ * Font-Awesome: 4.2.0														*
+ * jQuery:		 1.4.3														*
  * GIT Rep:		 https://github.com/dotcastle/jquery-mobile-font-awesome	*
  * Author:       DotCastle TechnoSolutions Private Limited					*
  * Web:			 http://www.dotcastle.com									*
@@ -115,12 +115,12 @@
 	background-image: url("img/check-16.png");
 }
 
-.ui-icon-fa-times:after {
-	background-image: url("svg/times-16.svg");
+.ui-icon-fa-remove:after {
+	background-image: url("svg/remove-16.svg");
 	background-repeat: no-repeat;
 }
-.ui-nosvg .ui-icon-fa-times:after {
-	background-image: url("img/times-16.png");
+.ui-nosvg .ui-icon-fa-remove:after {
+	background-image: url("img/remove-16.png");
 }
 
 .ui-icon-fa-search-plus:after {
@@ -3075,12 +3075,12 @@
 	background-image: url("img/digg-16.png");
 }
 
-.ui-icon-fa-pied-piper-square:after {
-	background-image: url("svg/pied-piper-square-16.svg");
+.ui-icon-fa-pied-piper:after {
+	background-image: url("svg/pied-piper-16.svg");
 	background-repeat: no-repeat;
 }
-.ui-nosvg .ui-icon-fa-pied-piper-square:after {
-	background-image: url("img/pied-piper-square-16.png");
+.ui-nosvg .ui-icon-fa-pied-piper:after {
+	background-image: url("img/pied-piper-16.png");
 }
 
 .ui-icon-fa-pied-piper-alt:after {
@@ -3521,4 +3521,324 @@
 }
 .ui-nosvg .ui-icon-fa-bomb:after {
 	background-image: url("img/bomb-16.png");
+}
+
+.ui-icon-fa-soccer-ball-o:after {
+	background-image: url("svg/soccer-ball-o-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-soccer-ball-o:after {
+	background-image: url("img/soccer-ball-o-16.png");
+}
+
+.ui-icon-fa-tty:after {
+	background-image: url("svg/tty-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-tty:after {
+	background-image: url("img/tty-16.png");
+}
+
+.ui-icon-fa-binoculars:after {
+	background-image: url("svg/binoculars-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-binoculars:after {
+	background-image: url("img/binoculars-16.png");
+}
+
+.ui-icon-fa-plug:after {
+	background-image: url("svg/plug-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-plug:after {
+	background-image: url("img/plug-16.png");
+}
+
+.ui-icon-fa-slideshare:after {
+	background-image: url("svg/slideshare-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-slideshare:after {
+	background-image: url("img/slideshare-16.png");
+}
+
+.ui-icon-fa-twitch:after {
+	background-image: url("svg/twitch-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-twitch:after {
+	background-image: url("img/twitch-16.png");
+}
+
+.ui-icon-fa-yelp:after {
+	background-image: url("svg/yelp-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-yelp:after {
+	background-image: url("img/yelp-16.png");
+}
+
+.ui-icon-fa-newspaper-o:after {
+	background-image: url("svg/newspaper-o-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-newspaper-o:after {
+	background-image: url("img/newspaper-o-16.png");
+}
+
+.ui-icon-fa-wifi:after {
+	background-image: url("svg/wifi-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-wifi:after {
+	background-image: url("img/wifi-16.png");
+}
+
+.ui-icon-fa-calculator:after {
+	background-image: url("svg/calculator-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-calculator:after {
+	background-image: url("img/calculator-16.png");
+}
+
+.ui-icon-fa-paypal:after {
+	background-image: url("svg/paypal-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-paypal:after {
+	background-image: url("img/paypal-16.png");
+}
+
+.ui-icon-fa-google-wallet:after {
+	background-image: url("svg/google-wallet-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-google-wallet:after {
+	background-image: url("img/google-wallet-16.png");
+}
+
+.ui-icon-fa-cc-visa:after {
+	background-image: url("svg/cc-visa-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-visa:after {
+	background-image: url("img/cc-visa-16.png");
+}
+
+.ui-icon-fa-cc-mastercard:after {
+	background-image: url("svg/cc-mastercard-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-mastercard:after {
+	background-image: url("img/cc-mastercard-16.png");
+}
+
+.ui-icon-fa-cc-discover:after {
+	background-image: url("svg/cc-discover-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-discover:after {
+	background-image: url("img/cc-discover-16.png");
+}
+
+.ui-icon-fa-cc-amex:after {
+	background-image: url("svg/cc-amex-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-amex:after {
+	background-image: url("img/cc-amex-16.png");
+}
+
+.ui-icon-fa-cc-paypal:after {
+	background-image: url("svg/cc-paypal-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-paypal:after {
+	background-image: url("img/cc-paypal-16.png");
+}
+
+.ui-icon-fa-cc-stripe:after {
+	background-image: url("svg/cc-stripe-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc-stripe:after {
+	background-image: url("img/cc-stripe-16.png");
+}
+
+.ui-icon-fa-bell-slash:after {
+	background-image: url("svg/bell-slash-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-bell-slash:after {
+	background-image: url("img/bell-slash-16.png");
+}
+
+.ui-icon-fa-bell-slash-o:after {
+	background-image: url("svg/bell-slash-o-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-bell-slash-o:after {
+	background-image: url("img/bell-slash-o-16.png");
+}
+
+.ui-icon-fa-trash:after {
+	background-image: url("svg/trash-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-trash:after {
+	background-image: url("img/trash-16.png");
+}
+
+.ui-icon-fa-copyright:after {
+	background-image: url("svg/copyright-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-copyright:after {
+	background-image: url("img/copyright-16.png");
+}
+
+.ui-icon-fa-at:after {
+	background-image: url("svg/at-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-at:after {
+	background-image: url("img/at-16.png");
+}
+
+.ui-icon-fa-eyedropper:after {
+	background-image: url("svg/eyedropper-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-eyedropper:after {
+	background-image: url("img/eyedropper-16.png");
+}
+
+.ui-icon-fa-paint-brush:after {
+	background-image: url("svg/paint-brush-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-paint-brush:after {
+	background-image: url("img/paint-brush-16.png");
+}
+
+.ui-icon-fa-birthday-cake:after {
+	background-image: url("svg/birthday-cake-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-birthday-cake:after {
+	background-image: url("img/birthday-cake-16.png");
+}
+
+.ui-icon-fa-area-chart:after {
+	background-image: url("svg/area-chart-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-area-chart:after {
+	background-image: url("img/area-chart-16.png");
+}
+
+.ui-icon-fa-pie-chart:after {
+	background-image: url("svg/pie-chart-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-pie-chart:after {
+	background-image: url("img/pie-chart-16.png");
+}
+
+.ui-icon-fa-line-chart:after {
+	background-image: url("svg/line-chart-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-line-chart:after {
+	background-image: url("img/line-chart-16.png");
+}
+
+.ui-icon-fa-lastfm:after {
+	background-image: url("svg/lastfm-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-lastfm:after {
+	background-image: url("img/lastfm-16.png");
+}
+
+.ui-icon-fa-lastfm-square:after {
+	background-image: url("svg/lastfm-square-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-lastfm-square:after {
+	background-image: url("img/lastfm-square-16.png");
+}
+
+.ui-icon-fa-toggle-off:after {
+	background-image: url("svg/toggle-off-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-toggle-off:after {
+	background-image: url("img/toggle-off-16.png");
+}
+
+.ui-icon-fa-toggle-on:after {
+	background-image: url("svg/toggle-on-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-toggle-on:after {
+	background-image: url("img/toggle-on-16.png");
+}
+
+.ui-icon-fa-bicycle:after {
+	background-image: url("svg/bicycle-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-bicycle:after {
+	background-image: url("img/bicycle-16.png");
+}
+
+.ui-icon-fa-bus:after {
+	background-image: url("svg/bus-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-bus:after {
+	background-image: url("img/bus-16.png");
+}
+
+.ui-icon-fa-ioxhost:after {
+	background-image: url("svg/ioxhost-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-ioxhost:after {
+	background-image: url("img/ioxhost-16.png");
+}
+
+.ui-icon-fa-angellist:after {
+	background-image: url("svg/angellist-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-angellist:after {
+	background-image: url("img/angellist-16.png");
+}
+
+.ui-icon-fa-cc:after {
+	background-image: url("svg/cc-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cc:after {
+	background-image: url("img/cc-16.png");
+}
+
+.ui-icon-fa-shekel:after {
+	background-image: url("svg/shekel-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-shekel:after {
+	background-image: url("img/shekel-16.png");
+}
+
+.ui-icon-fa-meanpath:after {
+	background-image: url("svg/meanpath-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-meanpath:after {
+	background-image: url("img/meanpath-16.png");
 }
