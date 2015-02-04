@@ -1,12 +1,12 @@
 /****************************************************************************
  * Resource:     Font Awesome Icons for jQuery Mobile						*
- * Version:      420.143													*
- * Font-Awesome: 4.2.0														*
- * jQuery:		 1.4.3														*
+ * Version:      430.145													*
+ * Font-Awesome: 4.3.0														*
+ * jQuery:		 1.4.5														*
  * GIT Rep:		 https://github.com/dotcastle/jquery-mobile-font-awesome	*
  * Author:       DotCastle TechnoSolutions Private Limited					*
  * Web:			 http://www.dotcastle.com									*
- * Copyright:    Copyright © 2013 - 2014,									*
+ * Copyright:    Copyright © 2013 - 2015,									*
  *               DotCastle TechnoSolutions Private Limited, INDIA.			*
  *               All rights reserved.										*
  ***************************************************************************/
@@ -1171,12 +1171,12 @@
 	background-image: url("img/twitter-16.png");
 }
 
-.ui-icon-fa-facebook:after {
-	background-image: url("svg/facebook-16.svg");
+.ui-icon-fa-facebook-f:after {
+	background-image: url("svg/facebook-f-16.svg");
 	background-repeat: no-repeat;
 }
-.ui-nosvg .ui-icon-fa-facebook:after {
-	background-image: url("img/facebook-16.png");
+.ui-nosvg .ui-icon-fa-facebook-f:after {
+	background-image: url("img/facebook-f-16.png");
 }
 
 .ui-icon-fa-github:after {
@@ -3467,12 +3467,12 @@
 	background-image: url("img/history-16.png");
 }
 
-.ui-icon-fa-circle-thin:after {
-	background-image: url("svg/circle-thin-16.svg");
+.ui-icon-fa-genderless:after {
+	background-image: url("svg/genderless-16.svg");
 	background-repeat: no-repeat;
 }
-.ui-nosvg .ui-icon-fa-circle-thin:after {
-	background-image: url("img/circle-thin-16.png");
+.ui-nosvg .ui-icon-fa-genderless:after {
+	background-image: url("img/genderless-16.png");
 }
 
 .ui-icon-fa-header:after {
@@ -3841,4 +3841,324 @@
 }
 .ui-nosvg .ui-icon-fa-meanpath:after {
 	background-image: url("img/meanpath-16.png");
+}
+
+.ui-icon-fa-buysellads:after {
+	background-image: url("svg/buysellads-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-buysellads:after {
+	background-image: url("img/buysellads-16.png");
+}
+
+.ui-icon-fa-connectdevelop:after {
+	background-image: url("svg/connectdevelop-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-connectdevelop:after {
+	background-image: url("img/connectdevelop-16.png");
+}
+
+.ui-icon-fa-dashcube:after {
+	background-image: url("svg/dashcube-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-dashcube:after {
+	background-image: url("img/dashcube-16.png");
+}
+
+.ui-icon-fa-forumbee:after {
+	background-image: url("svg/forumbee-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-forumbee:after {
+	background-image: url("img/forumbee-16.png");
+}
+
+.ui-icon-fa-leanpub:after {
+	background-image: url("svg/leanpub-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-leanpub:after {
+	background-image: url("img/leanpub-16.png");
+}
+
+.ui-icon-fa-sellsy:after {
+	background-image: url("svg/sellsy-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-sellsy:after {
+	background-image: url("img/sellsy-16.png");
+}
+
+.ui-icon-fa-shirtsinbulk:after {
+	background-image: url("svg/shirtsinbulk-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-shirtsinbulk:after {
+	background-image: url("img/shirtsinbulk-16.png");
+}
+
+.ui-icon-fa-simplybuilt:after {
+	background-image: url("svg/simplybuilt-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-simplybuilt:after {
+	background-image: url("img/simplybuilt-16.png");
+}
+
+.ui-icon-fa-skyatlas:after {
+	background-image: url("svg/skyatlas-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-skyatlas:after {
+	background-image: url("img/skyatlas-16.png");
+}
+
+.ui-icon-fa-cart-plus:after {
+	background-image: url("svg/cart-plus-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cart-plus:after {
+	background-image: url("img/cart-plus-16.png");
+}
+
+.ui-icon-fa-cart-arrow-down:after {
+	background-image: url("svg/cart-arrow-down-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-cart-arrow-down:after {
+	background-image: url("img/cart-arrow-down-16.png");
+}
+
+.ui-icon-fa-diamond:after {
+	background-image: url("svg/diamond-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-diamond:after {
+	background-image: url("img/diamond-16.png");
+}
+
+.ui-icon-fa-ship:after {
+	background-image: url("svg/ship-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-ship:after {
+	background-image: url("img/ship-16.png");
+}
+
+.ui-icon-fa-user-secret:after {
+	background-image: url("svg/user-secret-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-user-secret:after {
+	background-image: url("img/user-secret-16.png");
+}
+
+.ui-icon-fa-motorcycle:after {
+	background-image: url("svg/motorcycle-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-motorcycle:after {
+	background-image: url("img/motorcycle-16.png");
+}
+
+.ui-icon-fa-street-view:after {
+	background-image: url("svg/street-view-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-street-view:after {
+	background-image: url("img/street-view-16.png");
+}
+
+.ui-icon-fa-heartbeat:after {
+	background-image: url("svg/heartbeat-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-heartbeat:after {
+	background-image: url("img/heartbeat-16.png");
+}
+
+.ui-icon-fa-venus:after {
+	background-image: url("svg/venus-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-venus:after {
+	background-image: url("img/venus-16.png");
+}
+
+.ui-icon-fa-mars:after {
+	background-image: url("svg/mars-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mars:after {
+	background-image: url("img/mars-16.png");
+}
+
+.ui-icon-fa-mercury:after {
+	background-image: url("svg/mercury-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mercury:after {
+	background-image: url("img/mercury-16.png");
+}
+
+.ui-icon-fa-transgender:after {
+	background-image: url("svg/transgender-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-transgender:after {
+	background-image: url("img/transgender-16.png");
+}
+
+.ui-icon-fa-transgender-alt:after {
+	background-image: url("svg/transgender-alt-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-transgender-alt:after {
+	background-image: url("img/transgender-alt-16.png");
+}
+
+.ui-icon-fa-venus-double:after {
+	background-image: url("svg/venus-double-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-venus-double:after {
+	background-image: url("img/venus-double-16.png");
+}
+
+.ui-icon-fa-mars-double:after {
+	background-image: url("svg/mars-double-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mars-double:after {
+	background-image: url("img/mars-double-16.png");
+}
+
+.ui-icon-fa-venus-mars:after {
+	background-image: url("svg/venus-mars-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-venus-mars:after {
+	background-image: url("img/venus-mars-16.png");
+}
+
+.ui-icon-fa-mars-stroke:after {
+	background-image: url("svg/mars-stroke-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mars-stroke:after {
+	background-image: url("img/mars-stroke-16.png");
+}
+
+.ui-icon-fa-mars-stroke-v:after {
+	background-image: url("svg/mars-stroke-v-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mars-stroke-v:after {
+	background-image: url("img/mars-stroke-v-16.png");
+}
+
+.ui-icon-fa-mars-stroke-h:after {
+	background-image: url("svg/mars-stroke-h-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-mars-stroke-h:after {
+	background-image: url("img/mars-stroke-h-16.png");
+}
+
+.ui-icon-fa-neuter:after {
+	background-image: url("svg/neuter-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-neuter:after {
+	background-image: url("img/neuter-16.png");
+}
+
+.ui-icon-fa-facebook-official:after {
+	background-image: url("svg/facebook-official-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-facebook-official:after {
+	background-image: url("img/facebook-official-16.png");
+}
+
+.ui-icon-fa-pinterest-p:after {
+	background-image: url("svg/pinterest-p-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-pinterest-p:after {
+	background-image: url("img/pinterest-p-16.png");
+}
+
+.ui-icon-fa-whatsapp:after {
+	background-image: url("svg/whatsapp-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-whatsapp:after {
+	background-image: url("img/whatsapp-16.png");
+}
+
+.ui-icon-fa-server:after {
+	background-image: url("svg/server-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-server:after {
+	background-image: url("img/server-16.png");
+}
+
+.ui-icon-fa-user-plus:after {
+	background-image: url("svg/user-plus-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-user-plus:after {
+	background-image: url("img/user-plus-16.png");
+}
+
+.ui-icon-fa-user-times:after {
+	background-image: url("svg/user-times-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-user-times:after {
+	background-image: url("img/user-times-16.png");
+}
+
+.ui-icon-fa-hotel:after {
+	background-image: url("svg/hotel-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-hotel:after {
+	background-image: url("img/hotel-16.png");
+}
+
+.ui-icon-fa-viacoin:after {
+	background-image: url("svg/viacoin-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-viacoin:after {
+	background-image: url("img/viacoin-16.png");
+}
+
+.ui-icon-fa-train:after {
+	background-image: url("svg/train-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-train:after {
+	background-image: url("img/train-16.png");
+}
+
+.ui-icon-fa-subway:after {
+	background-image: url("svg/subway-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-subway:after {
+	background-image: url("img/subway-16.png");
+}
+
+.ui-icon-fa-medium:after {
+	background-image: url("svg/medium-16.svg");
+	background-repeat: no-repeat;
+}
+.ui-nosvg .ui-icon-fa-medium:after {
+	background-image: url("img/medium-16.png");
 }
