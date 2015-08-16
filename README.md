@@ -4,7 +4,7 @@ Font Awesome Icons for jQuery Mobile
 Read more about this <a href="http://www.dotcastle.com/blog/font-awesome-icons-for-jquery-mobile" target="_blank">here</a>
 
 Features:
---------
+---------
 1. Based on latest jQuery Mobile and Font Awesome frameworks, updated when any of these frameworks update 
 2. Icons based on SVG vector paths from the original Font Awesome kit 
 3. PNG fallbacks for browsers without SVG support 
