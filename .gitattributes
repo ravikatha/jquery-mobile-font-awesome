@@ -1,63 +1,120 @@
-###############################################################################
-# Set default behavior to automatically normalize line endings.
-###############################################################################
-* text=auto
-
-###############################################################################
-# Set default behavior for command prompt diff.
+# Line endings: every text file is stored AND checked out with LF.
 #
-# This is need for earlier builds of msysgit that does not have it on by
-# default for csharp files.
-# Note: This is only used by command line
-###############################################################################
-#*.cs     diff=csharp
-
-###############################################################################
-# Set the merge driver for project and solution files
+# `eol=lf` is the half that makes this hold on Windows. It overrides the local
+# core.autocrlf setting, so a clone on Windows gets LF in the working tree, not
+# CRLF. Without it git checks out whatever the machine happens to prefer, and
+# the same file differs between two people's disks while looking identical in
+# every editor.
 #
-# Merging from the command prompt will add diff markers to the files if there
-# are conflicts (Merging from VS is not affected by the settings below, in VS
-# the diff markers are never inserted). Diff markers may cause the following 
-# file extensions to fail to load in VS. An alternative would be to treat
-# these files as binary and thus will always conflict and require user
-# intervention with every merge. To do so, just uncomment the entries below
-###############################################################################
-#*.sln       merge=binary
-#*.csproj    merge=binary
-#*.vbproj    merge=binary
-#*.vcxproj   merge=binary
-#*.vcproj    merge=binary
-#*.dbproj    merge=binary
-#*.fsproj    merge=binary
-#*.lsproj    merge=binary
-#*.wixproj   merge=binary
-#*.modelproj merge=binary
-#*.sqlproj   merge=binary
-#*.wwaproj   merge=binary
-
-###############################################################################
-# behavior for image files
+# `text=auto` still lets git decide text-vs-binary by inspecting content. That
+# guess is reliable but it is a guess, so every binary type is declared
+# explicitly below and can never be normalised whatever the sniffing decides.
 #
-# image files are treated as binary by default.
-###############################################################################
-#*.jpg   binary
-#*.png   binary
-#*.gif   binary
+# This is not housekeeping. Two recorded failures in these orgs:
+#   - A carriage return on the first line of a shell script piped to bash on
+#     Ubuntu fails as "set: pipefail: invalid option name", and stops every
+#     heredoc terminator matching its opener - which reads as a broken script
+#     rather than a broken file format.
+#   - A Windows tool rewrote page headers and silently converted committed pages
+#     from LF to CRLF. Nothing errored, nothing rendered differently, and the
+#     only visible sign was a whole-file diff on a one-line edit.
+*                text=auto eol=lf
 
-###############################################################################
-# diff behavior for common document formats
-# 
-# Convert binary document formats to text before diffing them. This feature
-# is only available from the command line. Turn it on by uncommenting the 
-# entries below.
-###############################################################################
-#*.doc   diff=astextplain
-#*.DOC   diff=astextplain
-#*.docx  diff=astextplain
-#*.DOCX  diff=astextplain
-#*.dot   diff=astextplain
-#*.DOT   diff=astextplain
-#*.pdf   diff=astextplain
-#*.PDF   diff=astextplain
-#*.rtf   diff=astextplain
-#*.RTF   diff=astextplain
+# Windows batch files are LF too, deliberately - do not "fix" this to eol=crlf.
+# Maven's and Gradle's generated .gitattributes force CRLF for *.cmd / *.bat, so
+# the exception looks obligatory. It was measured on Windows 11 (2026-09-08) and
+# it is not: cmd.exe ran LF-only batch files identically to CRLF ones, including
+# a backward `goto` loop across a 25 KB file, `call :label` with a return, and
+# parenthesised if/else and for blocks with delayed expansion.
+
+# ---------------------------------------------------------------------------
+# Binary assets - never normalised, never diffed as text.
+# ---------------------------------------------------------------------------
+
+# Images
+*.png            binary
+*.jpg            binary
+*.jpeg           binary
+*.gif            binary
+*.bmp            binary
+*.ico            binary
+*.icns           binary
+*.webp           binary
+*.avif           binary
+*.heic           binary
+*.tif            binary
+*.tiff           binary
+*.psd            binary
+*.ai             binary
+
+# Fonts
+*.woff           binary
+*.woff2          binary
+*.ttf            binary
+*.ttc            binary
+*.otf            binary
+*.eot            binary
+
+# Documents
+*.pdf            binary
+*.doc            binary
+*.docx           binary
+*.xls            binary
+*.xlsx           binary
+*.ppt            binary
+*.pptx           binary
+*.odt            binary
+*.ods            binary
+*.odp            binary
+
+# Audio and video
+*.mp3            binary
+*.wav            binary
+*.flac           binary
+*.ogg            binary
+*.m4a            binary
+*.mp4            binary
+*.m4v            binary
+*.mov            binary
+*.avi            binary
+*.mkv            binary
+*.webm           binary
+
+# Archives
+*.zip            binary
+*.gz             binary
+*.tgz            binary
+*.bz2            binary
+*.xz             binary
+*.7z             binary
+*.rar            binary
+*.tar            binary
+*.jar            binary
+*.war            binary
+
+# Compiled output, native artefacts and machine-learning weights
+*.exe            binary
+*.dll            binary
+*.so             binary
+*.dylib          binary
+*.bin            binary
+*.class          binary
+*.pyc            binary
+*.pyd            binary
+*.wasm           binary
+*.safetensors    binary
+*.onnx           binary
+*.pt             binary
+*.pth            binary
+
+# Keys, keystores and signing material
+*.keystore       binary
+*.jks            binary
+*.p12            binary
+*.pfx            binary
+*.der            binary
+
+# Local databases
+*.db             binary
+*.sqlite         binary
+*.sqlite3        binary
